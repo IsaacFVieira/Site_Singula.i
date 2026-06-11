@@ -1,0 +1,183 @@
+Distribuição das Funcionalidades do 
+MedScan por Módulo 
+Módulo do Médico 
+O médico é responsável pelo acompanhamento clínico dos pacientes. 
+Funcionalidades 
+• Consultar ficha do paciente.  
+• Visualizar histórico clínico.  
+• Registar diagnósticos.  
+• Prescrever medicamentos.  
+• Solicitar exames.  
+• Consultar resultados de exames.  
+• Registar evolução clínica.  
+• Gerir consultas agendadas.  
+• Emitir relatórios médicos.  
+Módulo do Paramédico 
+O paramédico auxilia no atendimento e monitorização dos pacientes. 
+Funcionalidades 
+• Consultar lista de pacientes.  
+• Registar sinais vitais.  
+• Atualizar estado do paciente.  
+• Confirmar administração de medicamentos prescritos.  
+• Registar procedimentos realizados.  
+• Monitorizar pacientes em observação.  
+• Encaminhar pacientes entre setores.  
+• Receber alertas clínicos.  
+Módulo do Gestor 
+O gestor supervisiona toda a unidade de saúde e os seus recursos. 
+Funcionalidades 
+• Dashboard geral do sistema.  
+• Gestão de utilizadores.  
+• Gestão de médicos e paramédicos.  
+• Gestão de permissões e acessos.  
+• Gestão de medicamentos.  
+• Gestão de equipamentos médicos.  
+• Gestão de departamentos e serviços.  
+• Visualização de estatísticas.  
+• Relatórios operacionais e financeiros.  
+• Monitorização de desempenho.  
+• Auditoria de atividades dos utilizadores.  
+Módulo do Catalogador/Recepcionista 
+O catalogador ou recepcionista é responsável pelo atendimento inicial e organização dos 
+registos. 
+Funcionalidades 
+• Cadastro de pacientes.  
+• Atualização de dados pessoais.  
+• Pesquisa de pacientes.  
+• Marcação de consultas.  
+• Reagendamento de consultas.  
+• Cancelamento de consultas.  
+• Registo de entradas e saídas de pacientes.  
+• Emissão de comprovativos.  
+• Encaminhamento do paciente para o setor correto.  
+• Gestão da fila de atendimento. 
+CAMPOS NECESSÁRIOS POR MÓDULO DO MEDSCAN 
+1. CADASTRO DE PACIENTES (RECEPCIONISTA) 
+Dados Pessoais 
+• ID do paciente  
+• Nome completo  
+• Sexo  
+• Data de nascimento  
+• Idade  
+• Número do BI  
+• NIF (opcional)  
+• Telefone principal  
+• Telefone alternativo  
+• E-mail  
+• Endereço  
+• Município  
+• Província  
+• Nacionalidade  
+• Estado civil  
+• Fotografia  
+Dados de Emergência 
+• Nome do contacto de emergência  
+• Grau de parentesco  
+• Telefone do contacto  
+2. CONSULTA MÉDICA (MÉDICO) 
+Informações da Consulta 
+• ID da consulta  
+• Data da consulta  
+• Hora  
+• Médico responsável  
+• Especialidade  
+Avaliação Clínica 
+• Queixa principal  
+• História da doença atual  
+• Antecedentes médicos  
+• Alergias  
+• Diagnóstico  
+• Observações  
+Prescrição 
+• Medicamento  
+• Dosagem  
+• Frequência  
+• Duração do tratamento  
+Exames 
+• Exame solicitado  
+• Data da solicitação  
+• Resultado  
+• Observações do exame  
+3. ATENDIMENTO PARAMÉDICO 
+Sinais Vitais 
+• Temperatura  
+• Pressão arterial  
+• Frequência cardíaca  
+• Frequência respiratória  
+• Saturação de oxigênio  
+• Peso  
+• Altura  
+• IMC  
+Procedimentos 
+• Procedimento realizado  
+• Data  
+• Hora  
+• Responsável  
+• Observações  
+4. GESTÃO DE MEDICAMENTOS (GESTOR) 
+Cadastro de Medicamentos 
+• ID do medicamento  
+• Nome  
+• Categoria  
+• Fabricante  
+• Lote  
+• Data de fabricação  
+• Data de validade  
+• Quantidade em estoque  
+• Quantidade mínima  
+• Localização no estoque  
+Movimentação 
+• Tipo de movimentação  
+• Quantidade  
+• Data  
+• Responsável  
+5. GESTÃO DE EQUIPAMENTOS (GESTOR) 
+Cadastro de Equipamentos 
+• ID do equipamento  
+• Nome  
+• Categoria  
+• Marca  
+• Modelo  
+• Número de série  
+• Estado  
+• Localização  
+• Data de aquisição  
+Manutenção 
+• Tipo de manutenção  
+• Data  
+• Técnico responsável  
+• Observações  
+6. AGENDAMENTO DE CONSULTAS (RECEPCIONISTA) 
+Dados da Marcação 
+• ID da consulta  
+• Paciente  
+• Médico  
+• Especialidade  
+• Data  
+• Hora  
+• Estado da consulta (Agendada, Realizada, Cancelada)  
+7. UTILIZADORES DO SISTEMA 
+Dados Gerais 
+• ID do utilizador  
+• Nome completo  
+• Nome de utilizador  
+• Palavra-passe (criptografada)  
+• Tipo de utilizador  
+• Telefone  
+• E-mail  
+• Estado da conta  
+Perfis 
+• Médico  
+• Paramédico  
+• Recepcionista  
+• Gestor  
+8. RELATÓRIOS E AUDITORIA 
+Logs 
+• ID do log  
+• Utilizador  
+• Ação realizada  
+• Data  
+• Hora  
+• Endereço IP  
+• Descrição da ação  
+ 

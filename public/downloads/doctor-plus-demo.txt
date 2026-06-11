@@ -1,0 +1,8 @@
+Este é um ficheiro de teste para validar o sistema de download da Singular.i.
+
+Produto: Doctor+
+Descrição: Sistema de rastreamento de saúde para gestão de informações de pacientes.
+
+Este ficheiro serve apenas para testes. Quando os instaladores reais estiverem disponíveis, este ficheiro será substituído por: doctor-plus-setup.exe
+
+© 2026 SINGULAR.i - Todos os direitos reservados.

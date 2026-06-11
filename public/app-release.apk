@@ -1,0 +1,19 @@
+# Placeholder para arquivo APK
+
+Este é um arquivo placeholder. Substitua este arquivo pelo APK real do aplicativo.
+
+## Como adicionar o APK real:
+
+1. Obtenha o arquivo APK compilado do aplicativo SINGULAR.i
+2. Renomeie o arquivo para `app-release.apk`
+3. Coloque-o na pasta `public/` deste projeto
+4. Substitua este arquivo placeholder
+
+## Localização:
+
+O arquivo deve estar em: `public/app-release.apk`
+
+## Teste:
+
+Após adicionar o APK, teste o download acessando:
+http://localhost:3000/app-release.apk

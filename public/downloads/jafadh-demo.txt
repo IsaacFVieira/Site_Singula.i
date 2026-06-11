@@ -1,0 +1,8 @@
+Este é um ficheiro de teste para validar o sistema de download da Singular.i.
+
+Produto: JAFADH
+Descrição: Sistema de verificação de documentação pessoal.
+
+Este ficheiro serve apenas para testes. Quando os instaladores reais estiverem disponíveis, este ficheiro será substituído por: jafadh-setup.exe
+
+© 2026 SINGULAR.i - Todos os direitos reservados.
