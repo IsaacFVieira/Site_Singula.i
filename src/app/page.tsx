@@ -146,9 +146,11 @@ export default function Home() {
                 <p className="text-lg sm:text-xl text-[var(--text-secondary)] mb-8 sm:mb-10 leading-relaxed">
                   {t('homeSections.angoticHighlightDesc')}
                 </p>
-                <Button variant="default" size="lg" className="w-full sm:w-auto">
-                  {t('homeSections.angoticHighlightButton')}
-                </Button>
+                <Link href="/contacto">
+                  <Button variant="primary" size="lg" className="w-full sm:w-auto">
+                    {t('homeSections.angoticHighlightButton')}
+                  </Button>
+                </Link>
               </div>
             </div>
           </div>
@@ -242,7 +244,7 @@ export default function Home() {
                 <div className="w-12 h-12 bg-[var(--primary-soft)] rounded-lg mb-4 flex items-center justify-center mx-auto">
                   <div className="w-6 h-6 bg-[var(--accent)] rounded"></div>
                 </div>
-                <p className="text-sm sm:text-base text-[var(--text-secondary)] leading-relaxed">
+                <p className="text-sm sm:text-base text-[var(--text-primary)] leading-relaxed font-semibold">
                   {t('homeSections.institutionalPoint1')}
                 </p>
               </div>
@@ -250,7 +252,7 @@ export default function Home() {
                 <div className="w-12 h-12 bg-[var(--primary-soft)] rounded-lg mb-4 flex items-center justify-center mx-auto">
                   <div className="w-6 h-6 bg-[var(--accent)] rounded"></div>
                 </div>
-                <p className="text-sm sm:text-base text-[var(--text-secondary)] leading-relaxed">
+                <p className="text-sm sm:text-base text-[var(--text-primary)] leading-relaxed font-semibold">
                   {t('homeSections.institutionalPoint2')}
                 </p>
               </div>
@@ -258,7 +260,7 @@ export default function Home() {
                 <div className="w-12 h-12 bg-[var(--primary-soft)] rounded-lg mb-4 flex items-center justify-center mx-auto">
                   <div className="w-6 h-6 bg-[var(--accent)] rounded"></div>
                 </div>
-                <p className="text-sm sm:text-base text-[var(--text-secondary)] leading-relaxed">
+                <p className="text-sm sm:text-base text-[var(--text-primary)] leading-relaxed font-semibold">
                   {t('homeSections.institutionalPoint3')}
                 </p>
               </div>
@@ -266,7 +268,7 @@ export default function Home() {
                 <div className="w-12 h-12 bg-[var(--primary-soft)] rounded-lg mb-4 flex items-center justify-center mx-auto">
                   <div className="w-6 h-6 bg-[var(--accent)] rounded"></div>
                 </div>
-                <p className="text-sm sm:text-base text-[var(--text-secondary)] leading-relaxed">
+                <p className="text-sm sm:text-base text-[var(--text-primary)] leading-relaxed font-semibold">
                   {t('homeSections.institutionalPoint4')}
                 </p>
               </div>
