@@ -6,7 +6,7 @@ import Image from "next/image";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { useTheme } from "next-themes";
 import { useState, useEffect } from 'react';
-import { Target, Users, Lightbulb, Award, Zap, Globe, Code, Shield, Rocket } from 'lucide-react';
+import { Target, Users, Lightbulb, Award, Zap, Globe, Code, Shield, Rocket, Palette, FileText, Layers, Cpu } from 'lucide-react';
 
 export default function Sobre() {
   const { t } = useLanguage();
@@ -53,19 +53,24 @@ export default function Sobre() {
 
   const services = [
     {
-      icon: <Code className="w-12 h-12" />,
-      title: t('services.webDev'),
-      description: t('services.webDevDesc')
+      icon: <Palette className="w-12 h-12" />,
+      title: t('services.graphicDesign'),
+      description: t('services.graphicDesignDesc')
     },
     {
-      icon: <Shield className="w-12 h-12" />,
-      title: t('services.dataPlatforms'),
-      description: t('services.dataPlatformsDesc')
+      icon: <FileText className="w-12 h-12" />,
+      title: t('services.technicalConsulting'),
+      description: t('services.technicalConsultingDesc')
     },
     {
-      icon: <Rocket className="w-12 h-12" />,
-      title: t('services.customSoftware'),
-      description: t('services.customSoftwareDesc')
+      icon: <Layers className="w-12 h-12" />,
+      title: t('services.systemPlanning'),
+      description: t('services.systemPlanningDesc')
+    },
+    {
+      icon: <Cpu className="w-12 h-12" />,
+      title: t('services.systemDevelopment'),
+      description: t('services.systemDevelopmentDesc')
     }
   ];
 

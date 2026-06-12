@@ -10,24 +10,20 @@ export default function Servicos() {
 
   const services = [
     {
-      title: t('services.webDev'),
-      description: t('services.webDevDesc')
+      title: t('services.graphicDesign'),
+      description: t('services.graphicDesignDesc')
     },
     {
-      title: t('services.dataPlatforms'),
-      description: t('services.dataPlatformsDesc')
+      title: t('services.technicalConsulting'),
+      description: t('services.technicalConsultingDesc')
     },
     {
-      title: t('services.healthSolutions'),
-      description: t('services.healthSolutionsDesc')
+      title: t('services.systemPlanning'),
+      description: t('services.systemPlanningDesc')
     },
     {
-      title: t('services.adminSystems'),
-      description: t('services.adminSystemsDesc')
-    },
-    {
-      title: t('services.customSoftware'),
-      description: t('services.customSoftwareDesc')
+      title: t('services.systemDevelopment'),
+      description: t('services.systemDevelopmentDesc')
     }
   ];
 
