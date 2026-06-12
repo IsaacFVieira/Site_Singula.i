@@ -368,7 +368,6 @@ export const translations = {
     },
     homeSections: {
       featuredProjects: 'Destaques',
-      featuredProjectsDesc: 'Conheça alguns dos principais destaques da SINGULAR.i e a nossa participação no ANGOTIC, apresentando soluções tecnológicas inovadoras para Angola.',
       aboutTitle: 'Sobre a SINGULAR.i',
       aboutDesc: 'A SINGULAR.i é uma empresa de desenvolvimento de software sediada no Huambo, Angola, focada na criação de soluções tecnológicas modernas, seguras e eficientes.',
       whyTitle: 'Por que a SINGULAR.i existe',
@@ -1009,7 +1008,6 @@ export const translations = {
     },
     homeSections: {
       featuredProjects: 'Highlights',
-      featuredProjectsDesc: 'Discover some of SINGULAR.i\'s main highlights and our participation in ANGOTIC, presenting innovative technological solutions for Angola.',
       aboutTitle: 'About SINGULAR.i',
       aboutDesc: 'SINGULAR.i is a software development company based in Huambo, Angola, focused on creating modern, secure, and efficient technological solutions.',
       whyTitle: 'Why SINGULAR.i Exists',

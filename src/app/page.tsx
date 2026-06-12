@@ -158,9 +158,6 @@ export default function Home() {
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-3 sm:mb-4 text-[var(--text-primary)] tracking-tight">
               {t('homeSections.featuredProjects')}
             </h2>
-            <p className="text-sm sm:text-base text-[var(--text-secondary)] max-w-2xl mx-auto">
-              {t('homeSections.featuredProjectsDesc')}
-            </p>
           </div>
           <div className="grid sm:grid-cols-2 gap-6 sm:gap-8 max-w-4xl mx-auto px-4">
             <div className="bg-[var(--surface)] p-6 sm:p-8 rounded-xl border border-[var(--border)] hover:border-[var(--accent)] transition-colors">
