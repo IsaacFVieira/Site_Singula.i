@@ -120,31 +120,35 @@ export default function Home() {
         </>
       )}
 
-      {/* ANGOTIC Section */}
-      <Section className="py-16 sm:py-20 bg-[var(--surface)]">
+      {/* ANGOTIC Highlight Section - Minimalist Style */}
+      <Section className="py-20 sm:py-24 lg:py-32 bg-[var(--background)]">
         <Container>
-          <div className="max-w-5xl mx-auto px-4">
-            <div className="bg-gradient-to-br from-[var(--primary-soft)] via-[var(--card)] to-[var(--surface)] p-8 sm:p-12 rounded-2xl border border-[var(--border)] shadow-2xl hover:shadow-3xl transition-all duration-300 backdrop-blur-sm">
-              <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6 sm:gap-8">
-                <div className="flex-1">
-                  <div className="inline-block px-4 py-1.5 bg-[var(--accent)] text-[var(--text-primary)] text-xs sm:text-sm font-semibold rounded-full mb-4 sm:mb-6">
-                    2026
-                  </div>
-                  <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-3 sm:mb-4 text-[var(--text-primary)] tracking-tight">
-                    {t('homeSections.angoticTitle')}
-                  </h2>
-                  <p className="text-sm sm:text-base text-[var(--text-secondary)] mb-4 sm:mb-6 leading-relaxed font-medium">
-                    {t('homeSections.angoticSubtitle')}
-                  </p>
-                  <p className="text-sm sm:text-base text-[var(--text-secondary)] leading-relaxed whitespace-pre-line">
-                    {t('homeSections.angoticDesc')}
-                  </p>
+          <div className="max-w-7xl mx-auto px-4">
+            <div className="grid md:grid-cols-2 gap-12 lg:gap-16 items-center">
+              {/* Image */}
+              <div className="order-2 md:order-1">
+                <div className="relative w-full aspect-video rounded-2xl overflow-hidden shadow-2xl">
+                  <Image
+                    src="/images/ango(1).jpeg"
+                    alt="ANGOTIC 2026"
+                    fill
+                    className="object-cover"
+                    priority
+                  />
                 </div>
-                <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 md:w-auto w-full">
-                  <Button variant="outline" size="sm" className="sm:w-auto w-full">
-                    {t('homeSections.angoticButton')}
-                  </Button>
-                </div>
+              </div>
+
+              {/* Content */}
+              <div className="order-1 md:order-2">
+                <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 sm:mb-8 text-[var(--text-primary)] tracking-tight leading-tight">
+                  {t('homeSections.angoticHighlightTitle')}
+                </h2>
+                <p className="text-lg sm:text-xl text-[var(--text-secondary)] mb-8 sm:mb-10 leading-relaxed">
+                  {t('homeSections.angoticHighlightDesc')}
+                </p>
+                <Button variant="default" size="lg" className="w-full sm:w-auto">
+                  {t('homeSections.angoticHighlightButton')}
+                </Button>
               </div>
             </div>
           </div>
@@ -226,27 +230,46 @@ export default function Home() {
 
       <Section className="py-16 sm:py-20 bg-[var(--surface)]">
         <Container>
-          <div className="max-w-5xl mx-auto px-4">
-            <div className="grid sm:grid-cols-2 gap-6 sm:gap-8">
-              {[
-                t('homeSections.institutionalPoint1'),
-                t('homeSections.institutionalPoint2'),
-                t('homeSections.institutionalPoint3'),
-                t('homeSections.institutionalPoint4')
-              ].map((point, index) => (
-                <div key={index} className="bg-gradient-to-br from-[var(--card)] to-[var(--surface)] p-6 sm:p-8 rounded-xl border border-[var(--border)] hover:border-[var(--accent)] transition-all duration-300 hover:shadow-lg">
-                  <div className="flex items-start gap-4">
-                    <div className="w-8 h-8 sm:w-10 sm:h-10 bg-[var(--accent)] rounded-lg flex items-center justify-center flex-shrink-0">
-                      <svg className="w-5 h-5 sm:w-6 sm:h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                      </svg>
-                    </div>
-                    <p className="text-sm sm:text-base text-[var(--text-primary)] leading-relaxed font-medium">
-                      {point}
-                    </p>
-                  </div>
+          <div className="max-w-4xl mx-auto text-center px-4">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 text-[var(--text-primary)] tracking-tight">
+              {t('homeSections.whyTitle')}
+            </h2>
+            <p className="text-base sm:text-xl text-[var(--text-secondary)] mb-8 sm:mb-12 leading-relaxed">
+              {t('homeSections.whyDesc')}
+            </p>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+              <div className="bg-[var(--surface)] p-5 sm:p-6 rounded-xl border border-[var(--border)]">
+                <div className="w-12 h-12 bg-[var(--primary-soft)] rounded-lg mb-4 flex items-center justify-center mx-auto">
+                  <div className="w-6 h-6 bg-[var(--accent)] rounded"></div>
                 </div>
-              ))}
+                <p className="text-sm sm:text-base text-[var(--text-secondary)] leading-relaxed">
+                  {t('homeSections.institutionalPoint1')}
+                </p>
+              </div>
+              <div className="bg-[var(--surface)] p-5 sm:p-6 rounded-xl border border-[var(--border)]">
+                <div className="w-12 h-12 bg-[var(--primary-soft)] rounded-lg mb-4 flex items-center justify-center mx-auto">
+                  <div className="w-6 h-6 bg-[var(--accent)] rounded"></div>
+                </div>
+                <p className="text-sm sm:text-base text-[var(--text-secondary)] leading-relaxed">
+                  {t('homeSections.institutionalPoint2')}
+                </p>
+              </div>
+              <div className="bg-[var(--surface)] p-5 sm:p-6 rounded-xl border border-[var(--border)]">
+                <div className="w-12 h-12 bg-[var(--primary-soft)] rounded-lg mb-4 flex items-center justify-center mx-auto">
+                  <div className="w-6 h-6 bg-[var(--accent)] rounded"></div>
+                </div>
+                <p className="text-sm sm:text-base text-[var(--text-secondary)] leading-relaxed">
+                  {t('homeSections.institutionalPoint3')}
+                </p>
+              </div>
+              <div className="bg-[var(--surface)] p-5 sm:p-6 rounded-xl border border-[var(--border)]">
+                <div className="w-12 h-12 bg-[var(--primary-soft)] rounded-lg mb-4 flex items-center justify-center mx-auto">
+                  <div className="w-6 h-6 bg-[var(--accent)] rounded"></div>
+                </div>
+                <p className="text-sm sm:text-base text-[var(--text-secondary)] leading-relaxed">
+                  {t('homeSections.institutionalPoint4')}
+                </p>
+              </div>
             </div>
           </div>
         </Container>
