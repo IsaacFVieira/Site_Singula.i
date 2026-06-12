@@ -126,7 +126,7 @@ export default function Home() {
           <div className="max-w-7xl mx-auto px-4">
             <div className="grid md:grid-cols-2 gap-12 lg:gap-16 items-center">
               {/* Image */}
-              <div className="order-2 md:order-1">
+              <div className="order-1 md:order-1">
                 <div className="relative w-full aspect-video rounded-2xl overflow-hidden shadow-2xl">
                   <Image
                     src="/images/ango(1).jpeg"
@@ -139,18 +139,13 @@ export default function Home() {
               </div>
 
               {/* Content */}
-              <div className="order-1 md:order-2">
+              <div className="order-2 md:order-2">
                 <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 sm:mb-8 text-[var(--text-primary)] tracking-tight leading-tight">
                   {t('homeSections.angoticHighlightTitle')}
                 </h2>
-                <p className="text-lg sm:text-xl text-[var(--text-secondary)] mb-8 sm:mb-10 leading-relaxed">
+                <p className="text-lg sm:text-xl text-[var(--text-secondary)] leading-relaxed">
                   {t('homeSections.angoticHighlightDesc')}
                 </p>
-                <Link href="/contacto">
-                  <Button variant="primary" size="lg" className="w-full sm:w-auto">
-                    {t('homeSections.angoticHighlightButton')}
-                  </Button>
-                </Link>
               </div>
             </div>
           </div>
