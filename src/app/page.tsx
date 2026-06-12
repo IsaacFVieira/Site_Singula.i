@@ -120,36 +120,34 @@ export default function Home() {
         </>
       )}
 
-      {/* ANGOTIC Highlight Section - Minimalist Style */}
-      <Section className="py-20 sm:py-24 lg:py-32 bg-[var(--background)]">
-        <Container>
-          <div className="max-w-7xl mx-auto px-4">
-            <div className="grid md:grid-cols-2 gap-12 lg:gap-16 items-center">
-              {/* Image */}
-              <div className="order-1 md:order-1">
-                <div className="relative w-full aspect-video rounded-2xl overflow-hidden shadow-2xl">
-                  <Image
-                    src="/images/ango(1).jpeg"
-                    alt="ANGOTIC 2026"
-                    fill
-                    className="object-cover"
-                    priority
-                  />
-                </div>
-              </div>
-
-              {/* Content */}
-              <div className="order-2 md:order-2">
-                <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 sm:mb-8 text-[var(--text-primary)] tracking-tight leading-tight">
-                  {t('homeSections.angoticHighlightTitle')}
-                </h2>
-                <p className="text-lg sm:text-xl text-[var(--text-secondary)] leading-relaxed">
-                  {t('homeSections.angoticHighlightDesc')}
-                </p>
-              </div>
+      {/* ANGOTIC Highlight Section - Full-width Hero */}
+      <Section className="py-0">
+        <div className="relative w-full aspect-[16/9] sm:aspect-[21/9] lg:aspect-[21/9]">
+          <Image
+            src="/images/ango(1).jpeg"
+            alt="ANGOTIC 2026"
+            fill
+            className="object-cover"
+            priority
+          />
+          <div className="absolute inset-0 bg-black/60"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-black/75 via-black/50 to-transparent"></div>
+          <div className="absolute inset-0 flex items-center px-6 sm:px-12 lg:px-20">
+            <div className="max-w-3xl">
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 sm:mb-6 text-white tracking-tight leading-tight">
+                {t('homeSections.angoticHighlightTitle')}
+              </h2>
+              <p className="text-base sm:text-lg lg:text-xl text-white opacity-85 mb-6 sm:mb-8 leading-relaxed max-w-2xl">
+                {t('homeSections.angoticHighlightDesc')}
+              </p>
+              <Link href="/angotic">
+                <button className="px-6 py-3 sm:px-8 sm:py-3 bg-[var(--accent)] border-2 border-[var(--accent)] text-white font-semibold rounded-lg hover:bg-[var(--accent)]/90 hover:border-[var(--accent)]/90 hover:scale-105 transition-all duration-300">
+                  Ver Mais
+                </button>
+              </Link>
             </div>
           </div>
-        </Container>
+        </div>
       </Section>
 
       <Section className="py-16 sm:py-20 bg-[var(--surface)]">

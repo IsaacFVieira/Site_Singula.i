@@ -390,6 +390,14 @@ export const translations = {
       angoticHighlightTitle: 'SINGULAR.i no ANGOTIC 2026',
       angoticHighlightDesc: 'Conectamos o futuro às soluções que transformam Angola. Visite o nosso stand e conheça a tecnologia que eleva o patamar este ano.',
       angoticHighlightButton: 'Saber mais',
+      angoticPage: {
+        badge: 'Angola ICT Forum · Junho 2026',
+        title: 'ANGOTIC 2026',
+        subtitle: 'Na Rota da Transformação Digital',
+        introParagraph1: 'O ANGOTIC é o maior fórum de Tecnologias de Informação e Comunicação de Angola — um espaço onde inovação, política digital e empreendedorismo se encontram. Em 2026, Luanda é mais uma vez o centro da transformação digital africana.',
+        introParagraph2: 'O SINGULAR.i está presente nesta edição, acompanhando de perto as tendências, os projectos e as pessoas que estão a moldar o futuro digital do país. Aqui ficam os momentos que estamos a captar.',
+        back: 'Voltar'
+      },
       ctaTitle: 'Transforme ideias em soluções digitais reais.',
       ctaDesc: 'Entre em contacto com a SINGULAR.i e desenvolva o seu projeto connosco.',
       ctaButton: 'Falar Connosco',
@@ -1030,6 +1038,14 @@ export const translations = {
       angoticHighlightTitle: 'SINGULAR.i at ANGOTIC 2026',
       angoticHighlightDesc: 'We connect the future to solutions that transform Angola. Visit our stand and discover the technology that elevates the bar this year.',
       angoticHighlightButton: 'Learn more',
+      angoticPage: {
+        badge: 'Angola ICT Forum · June 2026',
+        title: 'ANGOTIC 2026',
+        subtitle: 'On the Route of Digital Transformation',
+        introParagraph1: 'ANGOTIC is Angola\'s largest Information and Communication Technology forum — a space where innovation, digital policy, and entrepreneurship meet. In 2026, Luanda is once again the center of Africa\'s digital transformation.',
+        introParagraph2: 'SINGULAR.i is present at this edition, closely following the trends, projects, and people shaping the country\'s digital future. Here are the moments we are capturing.',
+        back: 'Back'
+      },
       ctaTitle: 'Transform ideas into real digital solutions.',
       ctaDesc: 'Get in touch with SINGULAR.i and develop your project with us.',
       ctaButton: 'Talk to Us',
