@@ -158,11 +158,11 @@ export default function Sobre() {
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-12 text-center text-[var(--foreground)]">
               {t('services.title')}
             </h2>
-            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+            <div className="flex flex-wrap gap-6 sm:gap-8 justify-center">
               {services.map((service, index) => (
                 <div
                   key={index}
-                  className="bg-gradient-to-br from-[var(--card)] to-[var(--surface)] p-6 sm:p-8 rounded-2xl border border-[var(--border)] hover:border-[var(--accent)] transition-all duration-300 hover:shadow-lg"
+                  className="bg-gradient-to-br from-[var(--card)] to-[var(--surface)] p-6 sm:p-8 rounded-2xl border border-[var(--border)] hover:border-[var(--accent)] transition-all duration-300 hover:shadow-lg flex-1 min-w-[280px] max-w-[400px]"
                 >
                   <div className="text-[var(--accent)] mb-4">
                     {service.icon}

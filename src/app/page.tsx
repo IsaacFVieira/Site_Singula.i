@@ -254,14 +254,6 @@ export default function Home() {
                   {t('homeSections.institutionalPoint3')}
                 </p>
               </div>
-              <div className="bg-[var(--surface)] p-5 sm:p-6 rounded-xl border border-[var(--border)]">
-                <div className="w-12 h-12 bg-[var(--primary-soft)] rounded-lg mb-4 flex items-center justify-center mx-auto">
-                  <div className="w-6 h-6 bg-[var(--accent)] rounded"></div>
-                </div>
-                <p className="text-sm sm:text-base text-[var(--text-primary)] leading-relaxed font-semibold">
-                  {t('homeSections.institutionalPoint4')}
-                </p>
-              </div>
             </div>
           </div>
         </Container>
