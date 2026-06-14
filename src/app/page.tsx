@@ -103,8 +103,8 @@ export default function Home() {
               )}
             </div>
           </section>
-          <section className="bg-[var(--surface)] w-full">
-            <div className="flex flex-col gap-3 sm:flex-row sm:gap-4 justify-center items-center py-8 px-4">
+          <section className="bg-[var(--surface)] w-full flex items-center justify-center py-32 sm:py-40 lg:py-48">
+            <div className="flex flex-col gap-3 sm:flex-row sm:gap-4 px-4">
               <Link href="/products">
                 <Button variant="primary" size="lg">
                   {t('hero.verProjetos')}
@@ -119,6 +119,23 @@ export default function Home() {
           </section>
         </>
       )}
+
+      {/* About Section - Theme Adaptive Background */}
+      <Section className="py-16 sm:py-20 lg:py-24 bg-[var(--background)]">
+        <Container>
+          <div className="max-w-4xl mx-auto text-center px-4">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 text-[var(--text-primary)] tracking-tight">
+              {t('about.title')}
+            </h2>
+            <p className="text-base sm:text-lg text-[var(--text-secondary)] leading-relaxed mb-6">
+              {t('about.description')}
+            </p>
+            <p className="text-base sm:text-lg text-[var(--text-secondary)] leading-relaxed">
+              {t('about.description2')}
+            </p>
+          </div>
+        </Container>
+      </Section>
 
       {/* ANGOTIC Highlight Section - Full-width Hero */}
       <Section className="py-0">
@@ -204,10 +221,6 @@ export default function Home() {
                 <p className="text-base sm:text-lg text-[var(--text-secondary)] leading-relaxed mb-4 sm:mb-6">
                   {t('about.description')}
                 </p>
-                <div className="flex items-center gap-2 text-[var(--text-secondary)] text-sm sm:text-base">
-                  <span>📍</span>
-                  <span>{t('hero.location')}</span>
-                </div>
               </div>
               <div className="bg-[var(--surface)] p-6 sm:p-8 rounded-xl border border-[var(--border)]">
                 <h3 className="text-lg sm:text-xl font-semibold mb-4 text-[var(--text-primary)]">{t('about.mission')}</h3>

@@ -300,8 +300,8 @@ export const translations = {
     },
     about: {
       title: 'Sobre a SINGULAR.i',
-      description: 'A SINGULAR.i é uma empresa de desenvolvimento de software sediada no Huambo, Angola, focada na criação de soluções tecnológicas modernas, seguras e eficientes.',
-      description2: 'Trabalhamos no desenvolvimento de sistemas web, plataformas digitais e ferramentas inteligentes que respondem a desafios reais em diferentes setores.',
+      description: 'A SINGULAR.i É UMA INICIATIVA FOCADA NA MATERIALIZAÇÃO SAUDÁVEL, EFICIENTE E CONTEXTUALIZADA DE PROJECTOS TECNOLÓGICOS, ESPECIALMENTE AQUELES IDEALIZADOS POR ESTUDANTES.',
+      description2: 'Trabalhamos para transformar desafios reais em soluções práticas, ajudando instituições a optimizar processos, aumentar a eficiência e impulsionar o crescimento. Combinamos análise estratégica, desenvolvimento de software e inovação para criar soluções adaptadas às necessidades específicas de cada contexto.',
       identityTitle: 'Nossa Identidade Visual',
       identityDescription: 'A SINGULAR.i utiliza uma identidade moderna baseada em:',
       white: 'Branco',
@@ -369,7 +369,7 @@ export const translations = {
     homeSections: {
       featuredProjects: 'Destaques',
       aboutTitle: 'Sobre a SINGULAR.i',
-      aboutDesc: 'A SINGULAR.i é uma empresa de desenvolvimento de software sediada no Huambo, Angola, focada na criação de soluções tecnológicas modernas, seguras e eficientes.',
+      aboutDesc: 'A SINGULAR.i É UMA INICIATIVA FOCADA NA MATERIALIZAÇÃO SAUDÁVEL, EFICIENTE E CONTEXTUALIZADA DE PROJECTOS TECNOLÓGICOS, ESPECIALMENTE AQUELES IDEALIZADOS POR ESTUDANTES.',
       whyTitle: 'Por que a SINGULAR.i existe',
       whyDesc: 'Focados em resolver problemas reais em Angola através da transformação digital',
       realProblems: 'Problemas Reais',
@@ -948,8 +948,8 @@ export const translations = {
     },
     about: {
       title: 'About SINGULAR.i',
-      description: 'SINGULAR.i is a software development company based in Huambo, Angola, focused on creating modern, secure, and efficient technological solutions.',
-      description2: 'We work on developing web systems, digital platforms, and intelligent tools that respond to real challenges in different sectors.',
+      description: 'SINGULAR.i IS AN INITIATIVE FOCUSED ON THE HEALTHY, EFFICIENT, AND CONTEXTUALIZED MATERIALIZATION OF TECHNOLOGICAL PROJECTS, ESPECIALLY THOSE IDEALIZED BY STUDENTS.',
+      description2: 'We work to transform real challenges into practical solutions, helping institutions optimize processes, increase efficiency, and drive growth. We combine strategic analysis, software development, and innovation to create solutions adapted to the specific needs of each context.',
       identityTitle: 'Our Visual Identity',
       identityDescription: 'SINGULAR.i uses a modern identity based on:',
       white: 'White',
@@ -1017,7 +1017,7 @@ export const translations = {
     homeSections: {
       featuredProjects: 'Highlights',
       aboutTitle: 'About SINGULAR.i',
-      aboutDesc: 'SINGULAR.i is a software development company based in Huambo, Angola, focused on creating modern, secure, and efficient technological solutions.',
+      aboutDesc: 'SINGULAR.i IS AN INITIATIVE FOCUSED ON THE HEALTHY, EFFICIENT, AND CONTEXTUALIZED MATERIALIZATION OF TECHNOLOGICAL PROJECTS, ESPECIALLY THOSE IDEALIZED BY STUDENTS.',
       whyTitle: 'Why SINGULAR.i Exists',
       whyDesc: 'Focused on solving real problems in Angola through digital transformation',
       realProblems: 'Real Problems',
