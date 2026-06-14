@@ -103,7 +103,7 @@ export default function Home() {
               )}
             </div>
           </section>
-          <section className="bg-[var(--surface)] w-full flex items-center justify-center py-32 sm:py-40 lg:py-48">
+          <section className="bg-[var(--surface)] w-full flex items-center justify-center py-16 sm:py-20 lg:py-24">
             <div className="flex flex-col gap-3 sm:flex-row sm:gap-4 px-4">
               <Link href="/products">
                 <Button variant="primary" size="lg">
@@ -176,8 +176,8 @@ export default function Home() {
           </div>
           <div className="grid sm:grid-cols-2 gap-6 sm:gap-8 max-w-4xl mx-auto px-4">
             <div className="bg-[var(--surface)] p-6 sm:p-8 rounded-xl border border-[var(--border)] hover:border-[var(--accent)] transition-colors">
-              <div className="w-12 h-12 bg-[var(--primary-soft)] rounded-xl mb-4 flex items-center justify-center">
-                <Image src="/images/D+.PNG" alt="Doctor+" width={48} height={48} className="w-12 h-12 rounded-xl border-2 border-white object-contain" />
+              <div className="w-24 h-24 bg-[var(--primary-soft)] rounded-xl mb-4 flex items-center justify-center">
+                <Image src="/images/D+.PNG" alt="Doctor+" width={96} height={96} className="w-24 h-24 rounded-xl border-2 border-white object-contain" />
               </div>
               <h3 className="text-xl sm:text-2xl font-semibold mb-3 text-[var(--text-primary)]">{t('projects.doctor-plus.title')}</h3>
               <p className="text-sm sm:text-base text-[var(--text-secondary)] mb-4 leading-relaxed">
@@ -190,8 +190,8 @@ export default function Home() {
               </Link>
             </div>
             <div className="bg-[var(--surface)] p-6 sm:p-8 rounded-xl border border-[var(--border)] hover:border-[var(--accent)] transition-colors">
-              <div className="w-12 h-12 bg-[var(--primary-soft)] rounded-xl mb-4 flex items-center justify-center">
-                <Image src="/images/JAFADH_com_fundo .PNG" alt="JAFADH" width={48} height={48} className="w-12 h-12 rounded-xl border-2 border-white object-contain" />
+              <div className="w-24 h-24 bg-[var(--primary-soft)] rounded-xl mb-4 flex items-center justify-center">
+                <Image src="/images/JAFADH_com_fundo .PNG" alt="JAFADH" width={96} height={96} className="w-24 h-24 rounded-xl border-2 border-white object-contain" />
               </div>
               <h3 className="text-xl sm:text-2xl font-semibold mb-3 text-[var(--text-primary)]">{t('projects.jafadh.title')}</h3>
               <p className="text-sm sm:text-base text-[var(--text-secondary)] mb-4 leading-relaxed">
